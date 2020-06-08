@@ -1,14 +1,12 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
-
-<p>
-  <strong>Author:</strong>
-  <%= @post.author %>
-</p>
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<figure class="mt-2 image is-3by1">
+  <%= image_tag @post.featured_image %>
+</figure>
+<div class="mt-1 columns">
+  <div class="column">
+    <p class="title"><%= @post.title %></p>
+  </div>
+</div>
+<div class="mt-2 columns">
+  <div class="column is-three-quarters"><%= @post.content %>
+</div>

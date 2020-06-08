@@ -5,6 +5,10 @@ ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
+# Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
+gem 'devise'
+# High-level image processing wrapper for libvips and ImageMagick/GraphicsMagick
+gem "image_processing", "~> 1.0"
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server

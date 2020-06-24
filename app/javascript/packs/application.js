@@ -19,3 +19,4 @@ require("channels")
 require("trix")
 require("@rails/actiontext")
 require('bulma/css/bulma.css')
+import "@fortawesome/fontawesome-free/js/all";
